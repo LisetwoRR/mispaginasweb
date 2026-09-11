@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenvara — Luxury Cruise Lines</title>
+  <meta name="description" content="Zenvara Cruise Lines — discover luxury on the waves. Premium suites, fine dining, and unforgettable itineraries." />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__logo-group">
+      <div class="navbar__logo-wrapper">
+        <img src="assets/img/logo.svg" alt="" />
+      </div>
+      <span class="navbar__brand">Zenvara</span>
+    </div>
+
+    <nav class="navbar__links">
+      <a href="#experience">Tours</a>
+      <a href="#stats">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#footer">Contact</a>
+      <a href="#" class="navbar__offers">Offers</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#footer" class="btn btn--sm">Book Now</a>
+      <button class="navbar__toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="menuClose" aria-label="Close menu">&times;</button>
+    <a href="#experience">Tours</a>
+    <a href="#stats">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#footer">Contact</a>
+    <a href="#">Offers</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <img class="hero__bg" src="assets/img/hero-bg.jpg" alt="Zenvara cruise ship sailing across the open ocean" />
+    <div class="hero__scrim"></div>
+
+    <div class="hero__slides">
+      <div class="hero__slide hero__slide--right is-active" data-slide="0">
+        <div class="hero__content">
+          <h1 class="hero__heading">Discover Luxury<br />on the Waves</h1>
+          <p class="hero__subtitle">Experience elegance and comfort.</p>
+          <a href="#footer" class="btn">Explore Itineraries</a>
+        </div>
+      </div>
+
+      <div class="hero__slide hero__slide--left" data-slide="1">
+        <div class="hero__content">
+          <h2 class="hero__heading">Culinary Excellence</h2>
+          <p class="hero__subtitle">Savor world-class flavors at sea.</p>
+          <a href="#experience" class="btn">View Menu</a>
+        </div>
+      </div>
+
+      <div class="hero__slide hero__slide--right" data-slide="2">
+        <div class="hero__content">
+          <h2 class="hero__heading">Premium Luxury<br />Rooms</h2>
+          <p class="hero__subtitle">Extraordinary relief and comfort.</p>
+          <a href="#footer" class="btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__dots" id="heroDots">
+      <button class="hero__dot is-active" data-dot="0" aria-label="Slide 1"></button>
+      <button class="hero__dot" data-dot="1" aria-label="Slide 2"></button>
+      <button class="hero__dot" data-dot="2" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section experience" id="experience">
+    <div class="experience__grid">
+      <div class="experience__column reveal">
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-suites.svg" alt="" /></div>
+          <h3>Unlimited Suites</h3>
+          <p>Experience ultimate luxury with full access to premium ship suites.</p>
+        </div>
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-dining.svg" alt="" /></div>
+          <h3>Fine Dining</h3>
+          <p>Savor world-class cuisine prepared by Michelin-starred chefs.</p>
+        </div>
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-community.svg" alt="" /></div>
+          <h3>Community</h3>
+          <p>Connect with fellow travelers and explorers who motivate.</p>
+        </div>
+      </div>
+
+      <div class="experience__media reveal">
+        <img src="assets/img/experience-photo.jpg" alt="Guests relaxing on the deck of a Zenvara cruise ship at sunset" />
+      </div>
+
+      <div class="experience__column reveal">
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-guided.svg" alt="" /></div>
+          <h3>Live Guided</h3>
+          <p>Follow real-time excursions led by expert destination guides.</p>
+        </div>
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-spa.svg" alt="" /></div>
+          <h3>Wellness Spa</h3>
+          <p>Rejuvenate with ocean-inspired treatments and hydrotherapy.</p>
+        </div>
+        <div class="experience__card">
+          <div class="experience__icon"><img src="assets/img/icon-personalized.svg" alt="" /></div>
+          <h3>Personalized</h3>
+          <p>Get a custom travel plan built around your personal goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery / Terminals -->
+  <section class="section" id="gallery">
+    <div class="gallery__grid">
+      <div class="gallery__intro reveal">
+        <p class="eyebrow">Where do we come from</p>
+        <h2>Zenavara<br />Terminals</h2>
+        <p>Zenavara started with a vision to redefine maritime luxury, providing elite services in exclusive suite experiences and global port excursions.</p>
+        <a href="#footer" class="gallery__link">Learn More About Us <img src="assets/img/icon-arrow-teal.svg" alt="" /></a>
+      </div>
+
+      <div class="gallery__mosaic reveal">
+        <div class="gallery__item">
+          <img src="assets/img/gallery-container-business.jpg" alt="Container terminal business" />
+          <span>Container Business</span>
+        </div>
+        <div class="gallery__item">
+          <img src="assets/img/gallery-roro.jpg" alt="Roll-on/roll-off shipping" />
+          <span>RO RO</span>
+        </div>
+        <div class="gallery__item">
+          <img src="assets/img/gallery-logistics.jpg" alt="Logistics and warehousing" />
+          <span>Logistics / Warehousing</span>
+        </div>
+        <div class="gallery__item">
+          <img src="assets/img/gallery-general-cargo.jpg" alt="General cargo handling" />
+          <span>General Cargo</span>
+        </div>
+        <div class="gallery__item">
+          <img src="assets/img/gallery-cruise-business.jpg" alt="Cruise business operations" />
+          <span>Cruise Business</span>
+        </div>
+        <div class="gallery__item">
+          <img src="assets/img/gallery-steel-cargo.jpg" alt="Steel cargo shipping" />
+          <span>Steel Cargo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats / Service Network -->
+  <section class="stats" id="stats">
+    <div class="stats__top">
+      <div class="stats__map">
+        <img src="assets/img/world-map.svg" alt="World map showing Zenvara's service network" />
+
+        <div class="stats__hotspot" style="left: 56%; top: 50%;">
+          <div class="pulse"></div><div class="dot"></div>
+          <div class="label">Abu Dhabi</div>
+        </div>
+        <div class="stats__hotspot" style="left: 67%; top: 58%;">
+          <div class="pulse"></div><div class="dot"></div>
+          <div class="label">Mumbai</div>
+        </div>
+        <div class="stats__hotspot" style="left: 52%; top: 40%;">
+          <div class="pulse"></div><div class="dot"></div>
+          <div class="label">Istanbul</div>
+        </div>
+        <div class="stats__hotspot" style="left: 24%; top: 38%;">
+          <div class="pulse"></div><div class="dot"></div>
+          <div class="label">New York</div>
+        </div>
+        <div class="stats__hotspot" style="left: 78%; top: 69%;">
+          <div class="pulse"></div><div class="dot"></div>
+          <div class="label">Singapore</div>
+        </div>
+      </div>
+
+      <div class="stats__content reveal">
+        <p class="stats__quick">Quick Stats</p>
+        <h2 class="stats__title">Our Service<br />Network</h2>
+        <div class="stats__grid">
+          <div class="stats__item">
+            <span class="stats__number" data-count="20">0</span>
+            <span class="stats__label">Shipping Lines</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-count="18">0</span>
+            <span class="stats__label">Direct Services</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-count="63" data-suffix="+">0</span>
+            <span class="stats__label">Ports Served Directly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats__spotlight">
+      <div class="spotlight reveal">
+        <div class="spotlight__left">
+          <div class="spotlight__line"></div>
+          <h3>Khalifa Port</h3>
+          <p class="subtitle">Container Terminal</p>
+          <span class="spotlight__badge">Semi-Automated</span>
+        </div>
+        <div class="spotlight__mid">
+          <p>Khalifa Port Container Terminal (KPCT) is Abu Dhabi's main container port and regional logistics gateway. Connecting global trade routes with state-of-the-art semi-automated infrastructure.</p>
+          <a href="#footer" class="spotlight__more">Learn More <img src="assets/img/icon-arrow-white.svg" alt="" /></a>
+        </div>
+        <div class="spotlight__right">
+          <img src="assets/img/terminal.jpg" alt="Khalifa Port container terminal" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer__bg"><img src="assets/img/terminal.jpg" alt="" /></div>
+    <div class="footer__overlay"></div>
+
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo-group">
+            <div class="footer__logo-wrapper"><img src="assets/img/logo.svg" alt="" /></div>
+            <span class="footer__brand">Zenvara</span>
+          </div>
+          <p>Redefining maritime luxury. Experience world-class hospitality, Michelin-star dining, and breathtaking destinations across the globe.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer__links">
+            <a href="#experience">Tours</a>
+            <a href="#stats">Events</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#">Special Offers</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Contact Us</h4>
+          <div class="footer__contact-item"><img src="assets/img/icon-email.svg" alt="" /> hello@zenvara.com</div>
+          <div class="footer__contact-item"><img src="assets/img/icon-phone.svg" alt="" /> +1 (555) 123-4567</div>
+          <div class="footer__contact-item"><img src="assets/img/icon-location.svg" alt="" /> Miami, Florida</div>
+        </div>
+      </div>
+
+      <div class="footer__divider"></div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 ZENVARA CRUISE LINES. ALL RIGHTS RESERVED.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><img src="assets/img/icon-social-1.svg" alt="" /></a>
+          <a href="#" aria-label="Facebook"><img src="assets/img/icon-social-2.svg" alt="" /></a>
+          <a href="#" aria-label="Twitter"><img src="assets/img/icon-social-3.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
